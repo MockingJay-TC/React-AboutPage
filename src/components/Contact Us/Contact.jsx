@@ -1,9 +1,11 @@
 import React from 'react';
+import './contact.css'
 
 const Contact = () =>{
     return(
         <div className="contact">
-            <p>victor.aremu@amalitec.org</p>
+            <p>&#169;2021 Transcript App</p>
+            <p>victor.aremu@amalitech.org</p>
         </div>
     )
 }
