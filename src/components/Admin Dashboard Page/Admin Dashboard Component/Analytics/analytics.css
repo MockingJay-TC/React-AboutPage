@@ -1,0 +1,51 @@
+.analytics-wrapper{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    column-gap:10px;
+    /* display:flex;
+    justify-content: center; */
+    margin-bottom:40px;
+    padding:10px;
+    /* border:1px solid black; */
+}
+
+.ancard{
+  
+    width:200px;
+    /* border:1px solid black; */
+    border-radius:8px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    /* margin-left:20px; */
+    padding:10px;
+    text-align: center;
+    
+}
+.an-headings{
+    color:orangered;
+}
+
+.an-numbers{
+    font-size:1.5rem;
+    color:orangered;
+}
+
+.an-others{
+ border:1px solid black;
+ /* margin-left:40px; */
+ text-align: center;
+ padding:20px 0;
+}
+
+.an-others button{
+    width:150px;
+    height:30px;
+    text-align: center;
+    margin-bottom:10px;
+   
+}
+.an-others a{
+    text-decoration:none;
+    font-size:14px;
+    font-weight:600;
+    color:black;
+}

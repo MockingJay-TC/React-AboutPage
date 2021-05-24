@@ -39,7 +39,7 @@ class Team extends Component {
           },
           {
             tdId: "TAO5",
-            fName: "Kwamena",
+            fName: "Kwabena",
             lName: "Dwamena",
             position: "Backend Developer",
             src: "/images/kwa.jpg",

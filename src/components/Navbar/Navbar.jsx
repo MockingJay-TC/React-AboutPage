@@ -15,12 +15,11 @@ const Navbar = ()=> {
             </div>
             <div className="rightSide ">
                 <div className="navLinks" id={showLinks ? "hidden" : ""}>
-                    <a href="/">DASHBOARD</a>
-                    <a href="/">LOGIN</a>
+                    <a href="/dashboard">DASHBOARD</a>
+                    <a href="/login">LOGIN</a>
                     <a href="/">ABOUT</a>
                 </div>
                 <button onClick={() => setShowLinks(!showLinks)}>
-                    {" "}
                     <ReorderIcon />
                 </button>
             </div>

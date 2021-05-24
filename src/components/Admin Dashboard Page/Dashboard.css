@@ -1,0 +1,9 @@
+body{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.App {
+  display: flex;
+  height:100vh;
+}

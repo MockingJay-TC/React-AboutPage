@@ -1,0 +1,55 @@
+.sidebar-wrapper{
+    padding:10px;
+    text-align:center;
+    border-top:1px solid gainsboro;
+    border-right:2px solid gainsboro;
+}
+
+.fas{
+    margin-right:10px;
+}
+.list{
+    list-style:none;
+    padding:0;
+ 
+}
+
+.list li{
+   
+    margin-bottom:20px;
+    font-size:1.2rem;
+}
+
+.list li a{
+    display:block;
+    text-decoration:none;
+    padding:5px;
+    color:black;
+}
+
+.active{
+    border-right:3px solid orangered;
+}
+
+.list li:active{
+    border-right:3px solid orangered;
+}
+
+.list li:hover a {
+    background-color:orangered;
+    color:white;
+}
+
+.top{
+   
+    position:relative;
+    top:3%;
+   
+}
+
+.bottom{
+   
+    position:relative;
+    bottom:-30%;
+   
+}
