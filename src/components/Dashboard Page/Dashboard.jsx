@@ -1,4 +1,4 @@
-
+import React from 'react'
 import {Route} from 'react-router-dom';
 import './dashboard.css';
 import Sidebar from './Dashboard Component/Sidebar/sidebar';
@@ -9,9 +9,7 @@ function Dashboard() {
     <div className="App">
       <Route component={Sidebar}/>
       <Route path="/" component={Dashbuild}/>
-
-     
-    
+   
     </div>
   );
 }
